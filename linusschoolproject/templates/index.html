@@ -1,0 +1,401 @@
+{% load static %}
+{% include 'base.html' %}
+
+<style>
+    #hello-msg{
+    font-size: 18px;
+    margin-right: 20px;
+    }
+</style>
+
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-container">
+
+                        <h1>Linus School Store </h1>
+                        <p class="p-large p-heading">This "local shop" can stock merchandise ranging from pencils to tasty snacks, and sell its wares to students, teachers, principals and even the occasional visitor. A school store, however, is more than a "convenience store;" its shelves also are stocked with the materials for building academic and lifelong learning skills. </p>
+                        <a class="btn-solid-lg" href="{% url 'person_add' %}"><i class=""></i>STORE</a>
+                        <a class="btn-solid-lg" href="{% url 'login' %}"><i class=""></i>LOGIN</a>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+       <span><a href=""></a> </span>
+<!--            <div class="row">-->
+<!--                <div class="col-lg-12">-->
+<!--&lt;!&ndash;                    <div class="image-container">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <img class="img-fluid" src="{% static 'images/header-iphone.png' %}" alt="alternative">&ndash;&gt;-->
+<!--&lt;!&ndash;                    </div> &lt;!&ndash; end of text-container &ndash;&gt;&ndash;&gt;-->
+<!--                </div> &lt;!&ndash; end of col &ndash;&gt;-->
+<!--            </div> &lt;!&ndash; end of row &ndash;&gt;-->
+<!--        </div> &lt;!&ndash; end of container &ndash;&gt;-->
+<!--        <div class="deco-white-circle-1">-->
+<!--            <img src="{% static 'images/decorative-white-circle.svg' %}" alt="alternative">-->
+<!--        </div> &lt;!&ndash; end of deco-white-circle-1 &ndash;&gt;-->
+<!--        <div class="deco-white-circle-2">-->
+<!--            <img src="{% static 'images/decorative-white-circle.svg' %}" alt="alternative">-->
+<!--        </div> &lt;!&ndash; end of deco-white-circle-2 &ndash;&gt;-->
+<!--        <div class="deco-blue-circle">-->
+<!--            <img src="{% static 'images/decorative-blue-circle.svg' %}" alt="alternative">-->
+<!--        </div> &lt;!&ndash; end of deco-blue-circle &ndash;&gt;-->
+<!--        <div class="deco-yellow-circle">-->
+<!--            <img src="{% static 'images/decorative-yellow-circle.svg' %}" alt="alternative">-->
+<!--        </div> &lt;!&ndash; end of deco-yellow-circle &ndash;&gt;-->
+<!--        <div class="deco-green-diamond">-->
+<!--            <img src="{% static 'images/decorative-green-diamond.svg' %}" alt="alternative">-->
+<!--        </div> &lt;!&ndash; end of deco-yellow-circle &ndash;&gt;-->
+<!--    </header> &lt;!&ndash; end of header &ndash;&gt;-->
+<!--    &lt;!&ndash; end of header &ndash;&gt;-->
+
+<header class="header2">-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                </div>
+            </div>
+        </div>
+</header>
+
+<div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+
+<div class="container">
+
+<!--    <form class="well form-horizontal" action=" " method="post"  id="contact_form">-->
+<!--        {% csrf_token %}-->
+<!--<fieldset>-->
+
+<!--&lt;!&ndash; Form Name &ndash;&gt;-->
+<!--<legend>Contact Us Today!</legend>-->
+
+<!--&lt;!&ndash; Text input&ndash;&gt;-->
+
+<!--<div class="form-group">-->
+<!--  <label class="col-md-4 control-label">Name</label>-->
+<!--  <div class="col-md-4 inputGroupContainer">-->
+<!--  <div class="input-group">-->
+<!--  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>-->
+<!--  <input  name="name" placeholder="Name" class="form-control"  type="text">-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+
+<!--&lt;!&ndash; Text input&ndash;&gt;-->
+
+<!--<div class="form-group">-->
+<!--  <label class="col-md-4 control-label" >DOB</label>-->
+<!--    <div class="col-md-4 inputGroupContainer">-->
+<!--    <div class="input-group">-->
+<!--  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>-->
+<!--  <input name="last_name" placeholder="Last Name" class="form-control"  type="date">-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+
+<!--    &lt;!&ndash; radio checks &ndash;&gt;-->
+<!-- <div class="form-group">-->
+<!--                        <label class="col-md-4 control-label">Gender</label>-->
+<!--                        <div class="col-md-4">-->
+<!--                            <div class="radio">-->
+<!--                                <label>-->
+<!--                                    <input type="radio" name="hosting" value="yes" /> Male-->
+<!--                                </label>-->
+<!--                            </div>-->
+<!--                            <div class="radio">-->
+<!--                                <label>-->
+<!--                                    <input type="radio" name="hosting" value="no" /> Female-->
+<!--                                </label>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+
+<!--&lt;!&ndash; Text input&ndash;&gt;-->
+<!--       <div class="form-group">-->
+<!--  <label class="col-md-4 control-label">E-Mail</label>-->
+<!--    <div class="col-md-4 inputGroupContainer">-->
+<!--    <div class="input-group">-->
+<!--        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>-->
+<!--  <input name="email" placeholder="E-Mail Address" class="form-control"  type="text">-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+
+
+<!--&lt;!&ndash; Text input&ndash;&gt;-->
+
+<!--<div class="form-group">-->
+<!--  <label class="col-md-4 control-label">Phone </label>-->
+<!--    <div class="col-md-4 inputGroupContainer">-->
+<!--    <div class="input-group">-->
+<!--        <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>-->
+<!--  <input name="phone" placeholder="phone" class="form-control" type="text">-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+
+<!--&lt;!&ndash; Text input&ndash;&gt;-->
+
+<!--<div class="form-group">-->
+<!--  <label class="col-md-4 control-label">Address</label>-->
+<!--    <div class="col-md-4 inputGroupContainer">-->
+<!--    <div class="input-group">-->
+<!--        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>-->
+<!--  <input name="address" placeholder="Address" class="form-control" type="text">-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+
+<!--&lt;!&ndash;&lt;!&ndash; Text input&ndash;&gt;&ndash;&gt;-->
+
+<!--&lt;!&ndash;<div class="form-group">&ndash;&gt;-->
+<!--&lt;!&ndash;  <label class="col-md-4 control-label">City</label>&ndash;&gt;-->
+<!--&lt;!&ndash;    <div class="col-md-4 inputGroupContainer">&ndash;&gt;-->
+<!--&lt;!&ndash;    <div class="input-group">&ndash;&gt;-->
+<!--&lt;!&ndash;        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>&ndash;&gt;-->
+<!--&lt;!&ndash;  <input name="city" placeholder="city" class="form-control"  type="text">&ndash;&gt;-->
+<!--&lt;!&ndash;    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;  </div>&ndash;&gt;-->
+<!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+<!--&lt;!&ndash; Select Basic &ndash;&gt;-->
+
+<!--<div class="form-group">-->
+<!--  <label class="col-md-4 control-label">Department</label>-->
+<!--    <div class="col-md-4 selectContainer">-->
+<!--    <div class="input-group">-->
+<!--        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>-->
+<!--    <select name="department" id="id_department" class="form-control selectpicker" >-->
+<!--      <option value selected >Please select your Department</option>-->
+<!--      <option value="1">Science</option>-->
+<!--      <option value="2">Commerce</option>-->
+<!--      <option value="3" >Arizona</option>-->
+<!--      <option value="4" >Arkansas</option>-->
+<!--      <option value="5">California</option>-->
+<!--      <option value="6" >Colorado</option>-->
+
+
+<!--    </select>-->
+<!--  </div>-->
+<!--</div>-->
+<!--</div>-->
+
+<!--&lt;!&ndash; Text input&ndash;&gt;-->
+
+<!--<div class="form-group">-->
+<!--  <label class="col-md-4 control-label">Course</label>-->
+<!--    <div class="col-md-4 inputGroupContainer">-->
+<!--    <div class="input-group">-->
+<!--        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>-->
+<!--  <input name="" placeholder="Course" class="form-control"  type="text">-->
+<!--    </div>-->
+<!--</div>-->
+<!--</div>-->
+
+<!-- &lt;!&ndash; radio checks &ndash;&gt;-->
+<!-- <div class="form-group">-->
+<!--                        <label class="col-md-4 control-label">Purpose</label>-->
+<!--                        <div class="col-md-4">-->
+<!--                            <div class="radio">-->
+<!--                                <label>-->
+<!--                                    <input type="radio" name="hosting" value="yes" /> Enquiry-->
+<!--                                </label>-->
+<!--                            </div>-->
+<!--                            <div class="radio">-->
+<!--                                <label>-->
+<!--                                    <input type="radio" name="hosting" value="no" /> Place Order-->
+<!--                                </label>-->
+<!--                            </div>-->
+<!--                            <div class="radio">-->
+<!--                                <label>-->
+<!--                                    <input type="radio" name="hosting" value="no" /> Return-->
+<!--                                </label>-->
+<!--                            </div>-->
+<!--                            <div class="radio">-->
+<!--                                <label>-->
+<!--                                    <input type="radio" name="hosting" value="no" /> Others-->
+<!--                                </label>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+
+
+
+<!--&lt;!&ndash;&lt;!&ndash; Text area &ndash;&gt;&ndash;&gt;-->
+
+<!--&lt;!&ndash;<div class="form-group">&ndash;&gt;-->
+<!--&lt;!&ndash;  <label class="col-md-4 control-label">Project Description</label>&ndash;&gt;-->
+<!--&lt;!&ndash;    <div class="col-md-4 inputGroupContainer">&ndash;&gt;-->
+<!--&lt;!&ndash;    <div class="input-group">&ndash;&gt;-->
+<!--&lt;!&ndash;        <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>&ndash;&gt;-->
+<!--&lt;!&ndash;        	<textarea class="form-control" name="comment" placeholder="Project Description"></textarea>&ndash;&gt;-->
+<!--&lt;!&ndash;  </div>&ndash;&gt;-->
+<!--&lt;!&ndash;  </div>&ndash;&gt;-->
+<!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+<!--&lt;!&ndash; Success message &ndash;&gt;-->
+<!--<div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you shortly.</div>-->
+
+<!--&lt;!&ndash; Button &ndash;&gt;-->
+<!--<div class="form-group">-->
+<!--  <label class="col-md-4 control-label"></label>-->
+<!--  <div class="col-md-4">-->
+<!--    <button type="submit" class="btn btn-warning" >Send <span class="glyphicon glyphicon-send"></span></button>-->
+<!--  </div>-->
+<!--</div>-->
+
+<!--</fieldset>-->
+<!--</form>-->
+<!--</div>-->
+<!--    </div>&lt;!&ndash; /.container &ndash;&gt;-->
+
+
+                </div>
+            </div>
+        </div>
+</div>
+
+
+
+<!--<body>-->
+<!--<h2>Person Form</h2>-->
+
+<!--<form method="post" id="personForm" data-cities-url="">-->
+<!--    {% csrf_token %}-->
+<!--    {{ form.as_p }}-->
+<!--    <input type="submit" value="Submit">-->
+<!--</form>-->
+
+<!--<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>-->
+<!--<script>-->
+<!--    $("#id_department").change(function () {-->
+<!--        const url = $("#personForm").attr("data-courses-url");  // get the url of the `load_cities` view-->
+<!--        const departmentId = $(this).val();  // get the selected country ID from the HTML input-->
+
+<!--        $.ajax({                       // initialize an AJAX request-->
+<!--            url: url,                    // set the url of the request (= /persons/ajax/load-cities/ )-->
+<!--            data: {-->
+<!--                'department_id': departmentId       // add the department id to the GET parameters-->
+<!--            },-->
+<!--            success: function (data) {   // `data` is the return of the `load_cities` view function-->
+<!--                $("#id_course").html(data);  // replace the contents of the city input with the data that came from the server-->
+<!--                /*-->
+
+<!--                let html_data = '<option value="">-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</option>';-->
+<!--                data.forEach(function (city) {-->
+<!--                    html_data += `<option value="${course.id}">${course.name}</option>`-->
+<!--                });-->
+<!--                console.log(html_data);-->
+<!--                $("#id_course").html(html_data);-->
+
+<!--                */-->
+<!--            }-->
+<!--        });-->
+
+<!--    });-->
+<!--</script>-->
+
+</body>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer-col first">
+                        <h5>About Sync</h5>
+                        <p class="p-small">Sync is a landing page HTML template built with Bootstrap 4 for presenting mobile apps</p>
+                    </div> <!-- end of footer-col -->
+                    <div class="footer-col second">
+                        <h5>Contact Info</h5>
+                        <ul class="list-unstyled li-space-lg p-small">
+                            <li class="media">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="media-body">22 Innovation Street, CA, US</div>
+                            </li>
+                            <li class="media">
+                                <i class="fas fa-envelope"></i>
+                                <div class="media-body"><a href="#your-link">office@syncmobile.com</a></div>
+                            </li>
+                            <li class="media">
+                                <i class="fas fa-phone-alt"></i>
+                                <div class="media-body"><a href="#your-link">+44 376 945 23</a></div>
+                            </li>
+                        </ul>
+                    </div> <!-- end of footer-col -->
+                    <div class="footer-col third">
+                        <h5>Value Links</h5>
+                        <ul class="list-unstyled li-space-lg p-small">
+                            <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                            <li><a href="article-details.html">Article Details</a></li>
+                        </ul>
+                    </div> <!-- end of footer-col -->
+                    <div class="footer-col fourth">
+                        <h5>Other Apps</h5>
+                        <ul class="list-unstyled li-space-lg p-small">
+                            <li><a href="#your-link">Scientific Calculator</a></li>
+                            <li><a href="#your-link">Advanced Timer</a></li>
+                            <li><a href="#your-link">Music Store</a></li>
+                        </ul>
+                    </div> <!-- end of footer-col -->
+                    <div class="footer-col fifth">
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-facebook-f fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-pinterest-p fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-instagram fa-stack-1x"></i>
+                            </a>
+                        </span>
+                    </div> <!-- end of footer-col -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of footer -->  
+    <!-- end of footer -->
+
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright © 2020 <a href="https://inovatik.com">Inovatik</a> - All rights reserved</p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright --> 
+    <!-- end of copyright -->
+    
+    	
+    <!-- Scripts -->
+    <script src="{% static 'js/jquery.min.js' %}"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="{% static 'js/popper.min.js' %}"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script> <!-- Bootstrap framework -->
+    <script src="{% static 'js/jquery.easing.min.js' %}"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="{% static 'js/swiper.min.js' %}"></script> <!-- Swiper for image and text sliders -->
+    <script src="{% static 'js/jquery.magnific-popup.js' %}"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="{% static 'js/validator.min.js' %}"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="{% static 'js/scripts.js' %}"></script> <!-- Custom scripts -->
+</body>
+</html>
+
